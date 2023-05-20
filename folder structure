@@ -1,0 +1,39 @@
+- app
+  - client
+    - public
+      - index.html
+      - styles.css
+    - src
+      - components
+        - Header.js
+        - Footer.js
+        - ...
+      - pages
+        - Home.js
+        - Login.js
+        - Signup.js
+        - ...
+      - utils
+        - api.js
+        - auth.js
+        - ...
+      - App.js
+      - index.js
+  - server
+    - controllers
+      - userController.js
+      - contentController.js
+      - ...
+    - models
+      - User.js
+      - Content.js
+      - ...
+    - routes
+      - userRoutes.js
+      - contentRoutes.js
+      - ...
+    - config.js
+    - server.js
+- package.json
+- .gitignore
+- README.md
